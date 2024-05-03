@@ -1,0 +1,73 @@
+---
+title: "Unit 4: London Calling Summary"
+author: "Deanna M. Church"
+date: today
+format: 
+    beamer:
+        theme: Boadilla
+        fontsize: "18pt"
+---
+
+## Overall Findings
+
+
+* Determining where prices have risen the **most** is not straightforward
+* Housing prices have increased over the last two decades
+    + The average prices increase ranges from ~170K pounds - ~662K pounds
+    + The ratio of of 1998 prices to 2018 prices ranges from 0.151 - 0.239
+    + The order of boroughs differs between these two lists
+* The complication arises because the starting price, ending price and rate of change impact these numbers and are variable for all of the boroughs.
+
+## Average increase and ratio
+
+Plots are ordered by 'bigger price change'.
+
+::::{.columns}
+
+:::{.column width="45%"}
+![](img/AvgPriceIncrease.png)
+
+:::
+
+:::{.column width="45%"}
+![](img/PriceRatio1998_2018.png)
+:::
+::::
+
+\tiny Note: Richmond upon Thames is near the top when looking at the average price increase, but near the bottom when looking at the price ratio. 
+
+\tiny Note: the price ratio gets smaller the larger the 2018 price is, so smaller ratios indicate a bigger price difference.
+
+
+## Looking at increase over time
+
+::::{.columns}
+
+:::{.column width="45%"}
+![](img/Richmond%20upon%20Thames_plot.png)
+
+:::
+
+:::{.column width="45%"}
+![](img/Westminster_plot.png)
+:::
+::::
+
+ Westminster ranks 'high' on both charts. It has a higher starting price and higher. On both plots, the rate (slope of the line) is variable over time, though by eye looks slightly steeper in parts on the Westminster plot.
+
+## How I got here
+
+* It was clearly important to look at the data in different ways
+    + the 'average' change doesn't take rate, or starting/stopping values into account. 
+    + The individual borough plots were quite useful. This made clear that the rate of change both varied over time, and varied (slightly less so) between boroughs. 
+    + The ratio of of prices over a 2 decade span was also useful- but again a bit of a 'snapshot' that captures slightly different information than the mean average price does. 
+
+
+## Main challenges
+
+* Really getting the data cleaned appropriately is critical. 
+* Sometimes understanding the wording of the questions was a bit challenging. 
+
+## Next steps
+
+I think it would be interesting to look at this data on a map. In particular, trying to correlate price changes to nearby features (schools, distance to a tube stop, etc) may be useful for getting a better handle on understanding why the differences vary so much. 
