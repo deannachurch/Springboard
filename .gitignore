@@ -2,3 +2,5 @@
 chp_15.3_LondonCalling/__MACOSX/*
 chp_15.3_LondonCalling/*.zip
 DataScienceGuidedCapstone/.DS_Store
+*/.env
+
