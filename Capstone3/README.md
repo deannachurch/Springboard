@@ -27,6 +27,7 @@ Capstone3
 │   ├── processed                               <--- any artefacts I produce to clean the data>
 ├── models                                      <--- models
 ├── notebooks                                   <--- notebooks used for EDA and model development
+|  ├── EDA.ipynb                                <--- EDA notebook
 ├── scripts                                     <--- scripts to modularize analysis and run models (if needed)
 ├── conda_env.yml                               <--- conda environment definition
 ├── .gitignore                                  <--- files to ignore
