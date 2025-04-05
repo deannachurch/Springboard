@@ -36,10 +36,10 @@ Capstone3
 ## Analysis plan/To Do List
 
 1. Introduction & Data Exploration
-    - [ ] Load data
-    - [ ] Explore data
-    - [ ] Clean data
-    - [ ] Generate basic statistics 
+    - [X] Load data
+    - [X] Explore data
+    - [X] Clean data
+    - [X] Generate basic statistics 
 2. Paper Categorization
     - [ ] Obtain sciBert model (https://github.com/allenai/scibert), we will use this pre-trained model to classify papers into a predefined list of paper types.
     - [ ] Fine-tune the model on a subset of the data.

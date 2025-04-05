@@ -5,5 +5,7 @@ DataScienceGuidedCapstone/.DS_Store
 */.env
 chp_34.2_Apache_PySpark/
 Capstone3/data/raw/*.csv 
-Capstone3/data/processed/*.csv
+Capstone3/data/processed/
+Capstone3/models/
+
 
