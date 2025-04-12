@@ -41,12 +41,10 @@ Capstone3
     - [X] Clean data
     - [X] Generate basic statistics 
 2. Paper Categorization
-    - [ ] Obtain sciBert model (https://github.com/allenai/scibert), we will use this pre-trained model to classify papers into a predefined list of paper types.
-    - [ ] Fine-tune the model on a subset of the data.
-    - [ ] Evaluate the model on a test set.
-    - [ ] Generate a confusion matrix to visualize the performance of the model.
-    - [ ] Generate a classification report to summarize the performance of the model.
-    - [ ] Generate a ROC curve to visualize the performance of the model.
+    - [X] Obtain sciBert model (https://github.com/allenai/scibert), we will use this pre-trained model to classify papers into a predefined list of paper types.
+    - [X] Fine-tune the model on a subset of the data.
+    - [X] Evaluate the model on a test set.
+    - [X] Generate a classification report to summarize the performance of the model.
 3. Trend Analysis
     - [ ] Topic Modeling 
     - [ ] Generate a list of the top 10 topics in the data set.
