@@ -8,6 +8,13 @@ For Capstone 3, I propose to build a system that will allow me to:
 * Analyze trends in ‘hot topics’ of research over time. 
 * Establish networks of authors to identify potential Key Opinion Leaders (KOLs) in a given field. 
 
+## Notebooks
+
+EDA: https://github.com/deannachurch/Springboard/blob/main/Capstone3/notebooks/EDA.ipynb
+Paper classification: https://github.com/deannachurch/Springboard/blob/main/Capstone3/notebooks/BuildModels.ipynb
+Trend analysis: https://github.com/deannachurch/Springboard/blob/main/Capstone3/notebooks/TrendAnalysis.ipynb
+Network analysis: https://github.com/deannachurch/Springboard/blob/main/Capstone3/notebooks/NetworkAnalysis.ipynb
+
 ## Criteria for Success
 * Paper classification using a single term (even though many papers cover multiple terms) with an accuracy of greater than 90%. 
 * Insights into how research trends have changed over the past 10 years. 
