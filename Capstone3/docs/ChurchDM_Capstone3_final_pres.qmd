@@ -1,0 +1,106 @@
+---
+title: "Capstone3 Final Report"
+subtitle: "Preliminary work on better understanding the scientific literature"
+author: Deanna M. Church
+date-format: iso
+date: last-modified
+format:
+    revealjs: 
+        theme: simple
+        slide-number: true
+        chalkboard: 
+            buttons: false
+        icremental: true
+        footer: Springboard Data Science Course
+---
+
+# Too many papers!
+
+![Just one field of study: Machine Learning/AI](img/PublicationsByYear.png){fig-align="center"}
+
+
+# Building tools to help manage the literature
+
+Why does this matter?
+
+::: {.incremental}
+- Better triage papers to read what matters
+- Identify scientific trends
+- Understand who 'influencers' in a particular field are
+:::
+
+# Paper categorization {.smaller}
+
+|   | base model correct | tuned model correct | hypertuned correct |
+|----|----|----|----|
+| Very small (1-10) | 0.0488 | 0.0488 | 0.0 |
+| Small (11-100) | 0.182 | 0.182 | 0.102 |
+| Medium (101-1000) | 0.414 | 0.414 | 0.412 |
+| Large (1001-1000) | 0.512 | 0.512 | 0.541 |
+| Very large (10001 +) | 0.836 | 0.836 | 0.854 |
+
+Tuning sciBert model (Allen Institute)
+
+# Paper categorization: improvements
+
+:::{.incremental}
+- use full text rather than just abstracts
+- better manage class imbalance
+- try additional base models (e.g. PaperQA)
+- increase dataset size
+:::
+
+# Trend Analysis
+
+![](img/Top10PubsByCat.png){width="100%" fig-align="center"}
+
+\
+Dip at the end is due to only 1 month of data for 2025.
+
+
+# Trend Analysis
+
+![](img/CatTrendsHeatMap.png)
+
+# Trend Analysis
+
+![](img/PubTrendsNeurEvo.png)
+
+# Trend Analysis Overview
+
+![](img/GrowthRatesCategory.png)
+
+
+# Trend Analysis Improvements
+
+:::{.incremental}
+- Try adjusting for different periods
+- More aggressively prune smaller categories
+- Increase dataset
+:::
+
+# Network Analysis
+
+![](img/AuthorDistributionByTeamSizse.png)
+
+# Last Author Only Network
+
+![](img/LastAuthorNetwork.png)
+
+# Influential Authors {.smaller}
+
+| Degree   | Eigenvector | Pagerank |
+|----------|-------------|----------|
+| Y. Wang  | Y. Wang     | Y. Wang  |
+| Y. Li    | Y. Zhang    | Y. Zhang |
+| Y. Zhang | Y. Li       | Y. Li    |
+| Y. Liu   | Y. Liu      | Y. Liu   |
+
+# Network Analysis Improvements
+
+:::{.incremental}
+- Better handle last names (ORCID IDS or Full Names)
+- Analyze within category rather than across entire dataset
+- Add citation metrics
+- Add peer-review journal metrics
+:::
