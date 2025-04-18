@@ -11,5 +11,7 @@ Capstone3/notebooks/results/*
 Capstone3/notebooks/results_final/*
 Capstone3/scripts/__pycache__/*
 Capstone3/scripts/__init__.py
+.vscode/
+
 
 
