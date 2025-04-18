@@ -39,7 +39,7 @@ def plot_total_publications(df: pd.DataFrame, freq: str = 'Q') -> plt.Figure:
                                                  label=f'Trend (window={window})')
     
     # Add labels and title
-    freq_label = 'Year' if freq == 'Y' else ('Quarter' if freq == 'Q' else 'Month')
+    freq_label = 'Year' if freq == 'YE' else ('Quarter' if freq == 'QE' else 'Month')
     ax.set_xlabel(freq_label)
     ax.set_ylabel('Number of Publications')
     ax.set_title(f'Total Publications by {freq_label}')
@@ -83,7 +83,7 @@ def plot_top_categories(df: pd.DataFrame, top_n: int = 5, freq: str = 'Q') -> pl
         counts[category].plot(ax=ax, marker='o', label=category)
     
     # Add labels and title
-    freq_label = 'Year' if freq == 'Y' else ('Quarter' if freq == 'Q' else 'Month')
+    freq_label = 'Year' if freq == 'YE' else ('Quarter' if freq == 'QE' else 'Month')
     ax.set_xlabel(freq_label)
     ax.set_ylabel('Number of Publications')
     ax.set_title(f'Publication Counts for Top {top_n} Categories by {freq_label}')

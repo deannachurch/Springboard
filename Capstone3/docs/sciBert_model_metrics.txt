@@ -1,0 +1,41 @@
+Overall Model Performances:
+    Base SciBERT accuracy: 0.7546296296296297
+    Tuned SciBERT accuracy: 0.7546296296296297
+    Hyperparameter-tuned SciBERT accuracy: 0.7700249853027631
+
+    Base SciBERT average confidence: 0.8765491222927696
+    Tuned SciBERT average confidence: 0.8765491356807369
+    Hyperparameter-tuned SciBERT average confidence: 0.8336762553880288
+
+    F1 scores for each model:
+    Base model - Macro F1: 0.2274, Weighted F1: 0.7463
+    Tuned model - Macro F1: 0.2274, Weighted F1: 0.7463
+    Hypertuned model - Macro F1: 0.1809, Weighted F1: 0.7566
+
+Accuracy by bin size:
+    Very small (1-10):
+        base_correct: 0.0488
+        tuned_correct: 0.0488
+        hypertuned_correct: 0.0
+    Small (11-100):
+        base_correct: 0.182
+        tuned_correct: 0.182
+        hypertuned_correct: 0.102
+    Medium (101-1000):
+        base_correct: 0.414
+        tuned_correct: 0.414
+        hypertuned_correct: 0.412
+    Large (1001-10000):
+        base_correct: 0.512
+        tuned_correct: 0.512
+        hypertuned_correct: 0.541
+    Very large (10001+):
+        base_correct: 0.836
+        tuned_correct: 0.836
+        hypertuned_correct: 0.854
+
+Best hyperparameters: 
+    learning_rate: 1.542075482849585e-05
+    per_device_train_batch_size: 8 
+    num_train_epochs: 2 
+    weight_decay: 0.021889860653894203
